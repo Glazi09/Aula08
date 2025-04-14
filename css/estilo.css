@@ -154,3 +154,128 @@ section.mapa  iframe{
 	width: 60%;
 	height: 100%;
 }
+section.verde{
+	width: 90vw;
+	height: 10vh;
+	background-color: green;
+	margin-left: 5vw;
+}
+section.verde h1{
+	color: white;
+}
+section.laranja{
+	width: 90vw;
+	margin-left: 5vw;
+	height: 60vh;
+	margin-top: 3vh;
+	background-color: orange;
+}
+#azulzinha{
+	width:50%;
+	height: 100%;
+	background-color: cyan;
+}
+#azul{
+	width: 50%;
+	height: 100%;
+	background-color: darkblue; 
+	flex-direction: column;
+}
+#amarela{
+	width: 100%;
+	height: 50%;
+	background-color: yellow;
+	flex-direction: row;
+}
+#vermelha{
+	width: 100%;
+	height: 50%;
+	background-color: red;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+}
+#roxa{
+	width: 50%;
+	height: 100%;
+	background-color: purple;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+#rosa{
+	width: 50%;
+	height: 100%;
+	background-color: pink;
+}
+section.preta{
+	width: 90vw;
+	height: 10vh;
+	margin-left: 5vw;
+	margin-top: 3vh;
+	background-color: black;
+}
+section.preta div a{
+	color: white;
+	font-family:"trebuchet",cursive;
+}
+#roxa img{
+	width: 80%;
+	height: 80%;
+}
+section.cinza{
+	width: 100vw;
+	height:10vh;
+	background-color: white;
+	margin-left: 0vw;
+}
+section.roxa2{
+	width: 100vw;
+	height: 70vh;
+	background-color: white;
+	border: 4px groove black;
+}
+#azulzinho2{
+	width: 50%;
+	height: 100%;
+	background-color:#D94F04;
+	justify-content: center;
+}
+#azul2{
+	width:50%;
+	height: 100%;
+	background-color:white;
+	justify-content: center;
+	flex-direction: column;
+}
+#rosa2{
+	width: 100%;
+	height: 45%;
+	background-color:#F2BB77;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+#laranja2{
+	width: 100%;
+	height: 45%;
+	background-color: #F2BB77;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+#azulzinho2 img{
+	width: 50vw;
+	height: 80%;
+	justify-content: center;
+}
+#rosa2 video,#laranja2 video{
+	max-width: 90%;
+	max-height: 90%;
+	width: auto;
+	height: auto;
+}
